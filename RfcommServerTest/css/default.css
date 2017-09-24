@@ -1,0 +1,70 @@
+﻿body {
+  /* 取消此评论以启用滚动和缩放
+  触摸操作: 操作;
+  */
+}
+.top {
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    .top span {
+        font-size: 23px;
+    }
+
+    .top label {
+        font-size: 12px;
+        float: right;
+        color: hotpink;
+        cursor: pointer;
+    }
+
+    .top::after {
+        clear: both;
+    }
+.left {
+    background-color: #eeeeee;
+    width: 180px;
+    float: left;
+    height: calc( 100% - 100px );
+    overflow-y:scroll;
+}
+.right {
+    width: calc( 100% - 180px );
+    float: left;
+    height: calc( 100% - 100px );
+    overflow-y: scroll;
+}
+.bottom {
+    background-color: black;
+    color: white;
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#sendText 
+{
+    width: calc( 100% - 100px );
+}
+
+.info
+{
+    color:blueviolet;
+}
+.tag
+{
+    color:forestgreen;
+}
+.error
+{
+    color:crimson;
+}
+.time
+{
+    color:gold;
+}

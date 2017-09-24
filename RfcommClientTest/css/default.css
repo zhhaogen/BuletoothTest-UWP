@@ -1,0 +1,106 @@
+﻿body {
+    /* 取消此评论以启用滚动和缩放
+  触摸操作: 操作;
+  */
+}
+
+.top {
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .top span {
+        font-size: 23px;
+    }
+
+    .top label {
+        font-size: 12px;
+        float: right;
+        color: hotpink;
+        cursor: pointer;
+    }
+
+    .top::after {
+        clear: both;
+    }
+
+.left {
+    display: none;
+}
+
+._left {
+    width: 380px;
+}
+
+.right {
+    width: 100%;
+}
+
+._right {
+    width: calc(100% - 380px );
+}
+
+#clientList {
+    background-color: #eeeeee;
+    float: left;
+    height: calc( 100% - 100px );
+    overflow-y: scroll;
+}
+
+#msgText {
+    float: left;
+    height: calc( 100% - 100px );
+    overflow-y: scroll;
+}
+
+.itemDiv {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.itemLabel {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+    .itemLabel:nth-child(odd) {
+        background-color: darkgrey;
+    }
+
+    .itemLabel:nth-child(even) {
+        background-color: darkkhaki;
+    }
+
+.bottom {
+    background-color: black;
+    color: white;
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sendText {
+    width: calc( 100% - 100px );
+}
+
+.info {
+    color: blueviolet;
+}
+
+.tag {
+    color: forestgreen;
+}
+
+.error {
+    color: crimson;
+}
+
+.time {
+    color: gold;
+}
